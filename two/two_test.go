@@ -9,7 +9,7 @@ func TestGetRegexVariables(t *testing.T) {
 	expectedMax := "3"
 	expectedChar := "a"
 
-	min, max, letter := GetRegexVariables("1-3 a: abcde")
+	min, max, letter, _ := GetRegexVariables("1-3 a: abcde")
 
 	if min != expectedMin {
 		t.Errorf("GetRegexVariables() min = %q, want %q", min, expectedMin)
