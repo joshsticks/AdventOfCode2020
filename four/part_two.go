@@ -64,7 +64,7 @@ func validateEcl(x string) bool {
 }
 
 func validatePid(x string) bool {
-	re := regexp.MustCompile(`pid:([0-9]{9})[\s\n]`)
+	re := regexp.MustCompile(`pid:([0-9]{9})([^0-9]|$)`)
 	match := re.FindStringSubmatch(x)
 	if match != nil {
 		return true
