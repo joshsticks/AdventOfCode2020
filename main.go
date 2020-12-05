@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/joshsticks/AdventOfCode2020/four"
+	"github.com/joshsticks/AdventOfCode2020/five"
 )
 
 func main() {
@@ -25,6 +23,12 @@ func main() {
 	// resultFourPartOne := four.SolvePart1()
 	// fmt.Printf(`problem four, part1: %v`, resultFourPartOne)
 
-	resultFourPartTwo := four.SolvePart2()
-	fmt.Printf(`problem four, part2: %v`, resultFourPartTwo)
+	// resultFourPartTwo := four.SolvePart2()
+	// fmt.Printf(`problem four, part2: %v`, resultFourPartTwo)
+
+	// resultFivePartOne := five.SolvePart1()
+	// fmt.Printf(`problem five, part1: %v`, resultFivePartOne)
+
+	five.SolvePart2()
+	// fmt.Printf(`problem five, part2: %v`, resultFivePartTwo)
 }
