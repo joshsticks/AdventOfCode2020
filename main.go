@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/joshsticks/AdventOfCode2020/six"
+	"github.com/joshsticks/AdventOfCode2020/seven"
 )
 
 func main() {
@@ -37,7 +37,13 @@ func main() {
 	// resulteSixPartOne := six.SolvePart1()
 	// fmt.Printf(`problem six, part1: %v`, resulteSixPartOne)
 
-	resulteSixPartTwo := six.SolvePart2()
-	fmt.Printf(`problem six, part2: %v`, resulteSixPartTwo)
+	// resulteSixPartTwo := six.SolvePart2()
+	// fmt.Printf(`problem six, part2: %v`, resulteSixPartTwo)
+
+	// resultSevenPartOne := seven.SolvePart1()
+	// fmt.Printf(`problem seven, part1: %v`, resultSevenPartOne)
+
+	resultSevenPartTwo := seven.SolvePart2()
+	fmt.Printf(`problem seven, part2: %v`, resultSevenPartTwo)
 
 }
