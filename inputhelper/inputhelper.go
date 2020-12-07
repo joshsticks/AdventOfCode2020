@@ -54,6 +54,10 @@ func ScanLines(data []byte, atEOF bool) (advance int, token []byte, err error) {
 		if j < i {
 			break
 		}
+
+		if j+1 >= len(data) {
+			break
+		}
 		if bytes.Equal(data[j+1:j+len(delim)], delim[1:]) {
 			// We have a full delim-terminated line.
 			return j + len(delim), data[0:j], nil
